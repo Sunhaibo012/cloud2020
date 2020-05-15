@@ -22,7 +22,8 @@ public class OrderController {
     * RestTemplate访问restful接口非常简单
     * (url,requestMap,ResponseBean.class)这三个参数分别代表rest请求地址、请求参数、HTTP响应转换被转换成的对象类型
     * */
-    public static final String PAYMENT_URL = "http://localhost:8001";
+    //public static final String PAYMENT_URL = "http://localhost:8001";
+    public static final String PAYMENT_URL = "http://CLOUD-PAYMENT-SERVICE";
 
     @Resource
     private RestTemplate restTemplate;
